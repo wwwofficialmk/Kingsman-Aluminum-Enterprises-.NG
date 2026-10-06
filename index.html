@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KINGSMAN ALUMINUM ENTERPRISES - Leading supplier of quality zinc roofing sheets, aluminum roofing, roofing accessories, and building materials in Abakaliki, Ebonyi State. Contact 07017751785.">
+    <meta name="keywords" content="zinc seller in Abakaliki, roofing materials in Abakaliki, aluminum roofing in Abakaliki, building materials in Ebonyi State, Kingsman Aluminum Enterprises, roofing sheets Abakaliki">
+    <title>KINGSMAN ALUMINUM ENTERPRISES | Quality Roofing & Building Materials in Abakaliki</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* --- CSS VARIABLES & BASE STYLES --- */
+        :root {
+            --primary-dark: #121416;
+            --charcoal: #1a1d20;
+            --charcoal-light: #282c31;
+            --gold: #d4af37;
+            --gold-hover: #b59226;
+            --gold-light: #fff8e7;
+            --white: #ffffff;
+            --gray-light: #f4f5f7;
+            --text-dark: #222222;
+            --text-muted: #666666;
+            --whatsapp-green: #25d366;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--text-dark);
+            background-color: var(--white);
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* --- UTILITY CLASSES --- */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-padding {
+            padding: 80px 0;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 2.2rem;
+            color: var(--charcoal);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 12px;
+        }
+
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70px;
+            height: 4px;
+            background-color: var(--gold);
+            border-radius: 2px;
+        }
+
+        .section-title p {
+            color: var(--text-muted);
+            margin-top: 10px;
+            font-size: 1.05rem;
+        }
+
+        /* --- BUTTONS --- */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 14px 28px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: var(--transition);
+            border: none;
+        }
+
+        .btn-gold {
+            background-color: var(--gold);
+            color: var(--primary-dark);
+        }
+
+        .btn-gold:hover {
+            background-color: var(--gold-hover);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        .btn-outline-white {
+            border: 2px solid var(--white);
+            color: var(--white);
+            background: transparent;
+        }
+
+        .btn-outline-white:hover {
+            background-color: var(--white);
+            color: var(--charcoal);
+        }
+
+        .btn-whatsapp {
+            background-color: var(--whatsapp-green);
+            color: var(--white);
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #1eb857;
+            transform: translateY(-2px);
+        }
+
+        /* --- TOP HEADER & NAVBAR --- */
+        .top-bar {
+            background-color: var(--primary-dark);
+            color: var(--white);
+            padding: 8px 0;
+            font-size: 0.85rem;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+        }
+
+        .top-bar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .top-info span {
+            margin-right: 20px;
+        }
+
+        .top-info i {
+            color: var(--gold);
+            margin-right: 6px;
+        }
+
+        header {
+            background-color: var(--charcoal);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .logo h1 {
+            color: var(--white);
+            font-size: 1.4rem;
+            letter-spacing: 0.5px;
+        }
+
+        .logo h1 span {
+            color: var(--gold);
+        }
+
+        .logo p {
+            color: #aaa;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--white);
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .mobile-toggle {
+            display: none;
+            color: var(--white);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            position: relative;
+            background: linear-gradient(rgba(18, 20, 22, 0.85), rgba(18, 20, 22, 0.85)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+            color: var(--white);
+            padding: 120px 0 100px;
+            text-align: left;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .badge-gold {
+            display: inline-block;
+            background-color: rgba(212, 175, 55, 0.2);
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            padding: 6px 16px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            line-height: 1.2;
+            margin-bottom: 15px;
+            color: var(--white);
+        }
+
+        .hero h1 span {
+            color: var(--gold);
+        }
+
+        .hero-tagline {
+            font-size: 1.25rem;
+            color: #ddd;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .hero-location {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1rem;
+            color: var(--gold);
+            margin-bottom: 30px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        /* --- PRODUCTS SECTION --- */
+        .products {
+            background-color: var(--gray-light);
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+        }
+
+        .product-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #e1e4e8;
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+            border-color: var(--gold);
+        }
+
+        .product-img {
+            height: 220px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .product-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .product-card:hover .product-img img {
+            transform: scale(1.05);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background-color: var(--charcoal);
+            color: var(--gold);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 3px;
+        }
+
+        .product-info {
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .product-info h3 {
+            font-size: 1.2rem;
+            color: var(--charcoal);
+            margin-bottom: 10px;
+        }
+
+        .product-info p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .product-action {
+            margin-top: auto;
+        }
+
+        .product-action .btn {
+            width: 100%;
+            font-size: 0.85rem;
+            padding: 10px;
+        }
+
+        /* --- WHY CHOOSE US SECTION --- */
+        .why-us {
+            background-color: var(--charcoal);
+            color: var(--white);
+        }
+
+        .why-us .section-title h2 {
+            color: var(--white);
+        }
+
+        .why-us .section-title p {
+            color: #bbb;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-box {
+            background-color: var(--charcoal-light);
+            padding: 30px 20px;
+            border-radius: 6px;
+            border-bottom: 3px solid var(--gold);
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-5px);
+            background-color: #32373e;
+        }
+
+        .feature-icon {
+            width: 65px;
+            height: 65px;
+            background-color: rgba(212, 175, 55, 0.15);
+            color: var(--gold);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            margin: 0 auto 20px;
+        }
+
+        .feature-box h3 {
+            font-size: 1.15rem;
+            margin-bottom: 12px;
+            color: var(--white);
+        }
+
+        .feature-box p {
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+
+        /* --- ABOUT US SECTION --- */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .about-text h3 {
+            font-size: 1.8rem;
+            color: var(--charcoal);
+            margin-bottom: 15px;
+        }
+
+        .about-text p {
+            margin-bottom: 15px;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .about-highlights {
+            margin: 25px 0;
+        }
+
+        .about-highlights li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            color: var(--charcoal);
+        }
+
+        .about-highlights i {
+            color: var(--gold);
+        }
+
+        .about-image {
+            position: relative;
+        }
+
+        .about-image img {
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .about-experience-card {
+            position: absolute;
+            bottom: -20px;
+            left: -20px;
+            background-color: var(--gold);
+            color: var(--primary-dark);
+            padding: 20px 25px;
+            border-radius: 6px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .about-experience-card strong {
+            font-size: 2rem;
+            display: block;
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1;
+        }
+
+        /* --- DELIVERY SECTION --- */
+        .delivery {
+            background-color: var(--gold-light);
+            border-top: 1px solid rgba(212, 175, 55, 0.3);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .delivery-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .delivery-text {
+            max-width: 700px;
+        }
+
+        .delivery-text h2 {
+            font-size: 1.8rem;
+            color: var(--charcoal);
+            margin-bottom: 10px;
+        }
+
+        .delivery-text p {
+            color: #555;
+            font-size: 1rem;
+        }
+
+        /* --- CONTACT SECTION --- */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .contact-info-card {
+            background-color: var(--charcoal);
+            color: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+        }
+
+        .contact-info-card h3 {
+            font-size: 1.5rem;
+            color: var(--gold);
+            margin-bottom: 25px;
+        }
+
+        .contact-item {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .contact-item i {
+            font-size: 1.3rem;
+            color: var(--gold);
+            margin-top: 3px;
+        }
+
+        .contact-item h4 {
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+
+        .contact-item p {
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        .contact-form {
+            background-color: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            border: 1px solid #eee;
+        }
+
+        .contact-form h3 {
+            font-size: 1.5rem;
+            color: var(--charcoal);
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--charcoal);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--gold);
+            box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background-color: var(--primary-dark);
+            color: #aaa;
+            padding: 60px 0 20px;
+            font-size: 0.9rem;
+            border-top: 2px solid var(--gold);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col h4 {
+            color: var(--white);
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 8px;
+        }
+
+        .footer-col h4::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background-color: var(--gold);
+        }
+
+        .footer-col p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-col ul li a {
+            transition: var(--transition);
+        }
+
+        .footer-col ul li a:hover {
+            color: var(--gold);
+            padding-left: 5px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+            font-size: 0.85rem;
+        }
+
+        /* --- FLOATING WHATSAPP BUTTON --- */
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background-color: var(--whatsapp-green);
+            color: var(--white);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            z-index: 999;
+            transition: var(--transition);
+        }
+
+        .floating-whatsapp:hover {
+            transform: scale(1.1);
+            color: var(--white);
+        }
+
+        /* --- RESPONSIVE STYLES --- */
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 2.3rem;
+            }
+
+            .about-content, .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .about-experience-card {
+                left: 10px;
+                bottom: 10px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .top-bar {
+                display: none;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--charcoal);
+                padding: 20px 0;
+                box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-toggle {
+                display: block;
+            }
+
+            .hero {
+                padding: 80px 0 60px;
+            }
+
+            .hero h1 {
+                font-size: 1.9rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .delivery-box {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP INFORMATION BAR -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-info">
+                <span><i class="fa-solid fa-location-dot"></i> Integrated Building Materials Market, Abakaliki, Ebonyi State</span>
+                <span><i class="fa-solid fa-phone"></i> 07017751785</span>
+            </div>
+            <div class="top-info">
+                <span><i class="fa-solid fa-clock"></i> Mon - Sat: 8:00 AM - 6:00 PM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN NAVIGATION HEADER -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">
+                    <h1>KINGSMAN <span>ALUMINUM</span></h1>
+                    <p>ENTERPRISES • ABAKALIKI</p>
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Our Products</a></li>
+                    <li><a href="#why-us">Why Choose Us</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#delivery">Delivery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+                <div class="mobile-toggle" id="mobileMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge-gold">Premier Roofing Dealer in Ebonyi State</span>
+                <h1>KINGSMAN ALUMINUM ENTERPRISES</h1>
+                <p class="hero-tagline">“Quality Roofing Materials You Can Trust”</p>
+                <p class="hero-tagline" style="font-size: 1rem; color: var(--gold);">Zinc • Aluminum • Roofing Materials</p>
+                
+                <div class="hero-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Integrated Building Materials Market, Abakaliki, Ebonyi State</span>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="https://wa.me/2347017751785?text=Hello%20Kingsman%20Aluminum%20Enterprises,%20I%20would%20like%20to%20get%20a%20quote%20for%20roofing%20materials." target="_blank" class="btn btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                    <a href="tel:07017751785" class="btn btn-gold">
+                        <i class="fa-solid fa-phone"></i> Call 07017751785
+                    </a>
+                    <a href="#products" class="btn btn-outline-white">
+                        <i class="fa-solid fa-boxes-stacked"></i> View Products
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="products" class="products section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Product Categories</h2>
+                <p>Top-quality zinc sheets, aluminum roofing, and structural accessories in Abakaliki</p>
+            </div>
+
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1628744876497-eb30460be9f6?auto=format&fit=crop&w=600&q=80" alt="Zinc Roofing Sheets Abakaliki">
+                        <span class="product-badge">Top Seller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Zinc Roofing Sheets</h3>
+                        <p>Durable, corrosion-resistant, high-gauge zinc roofing sheets suitable for residential, commercial, and industrial roofing projects across Ebonyi State.</p>
+                        <div class="product-action">
+                            <a href="https://wa.me/2347017751785?text=Hi,%20I'm%20interested%20in%20Zinc%20Roofing%20Sheets." target="_blank" class="btn btn-gold">
+                                <i class="fa-brands fa-whatsapp"></i> Order / Inquiry
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Aluminum Roofing Materials">
+                        <span class="product-badge">Premium Grade</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Aluminum Roofing Materials</h3>
+                        <p>Longspan, Metcoppo, and Step-tile aluminum sheets engineered for maximum durability, heat insulation, and architectural beauty.</p>
+                        <div class="product-action">
+                            <a href="https://wa.me/2347017751785?text=Hi,%20I'm%20interested%20in%20Aluminum%20Roofing%20Materials." target="_blank" class="btn btn-gold">
+                                <i class="fa-brands fa-whatsapp"></i> Order / Inquiry
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d0fbb186a5b7?auto=format&fit=crop&w=600&q=80" alt="Roofing Accessories Abakaliki">
+                        <span class="product-badge">Essential Supplies</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Roofing Accessories</h3>
+                        <p>Complete range of roofing screws, flashing, ridge caps, gutters, roofing nails, sealants, and waterproofing materials.</p>
+                        <div class="product-action">
+                            <a href="https://wa.me/2347017751785?text=Hi,%20I'm%20interested%20in%20Roofing%20Accessories." target="_blank" class="btn btn-gold">
+                                <i class="fa-brands fa-whatsapp"></i> Order / Inquiry
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" alt="Building & Construction Materials">
+                        <span class="product-badge">Complete Supply</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>General Building Materials</h3>
+                        <p>All kinds of quality structural supplies, timber supports, roofing frameworks, and construction essentials supplied directly to site.</p>
+                        <div class="product-action">
+                            <a href="https://wa.me/2347017751785?text=Hi,%20I'm%20interested%20in%20General%20Building%20Materials." target="_blank" class="btn btn-gold">
+                                <i class="fa-brands fa-whatsapp"></i> Order / Inquiry
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY CHOOSE US SECTION -->
+    <section id="why-us" class="why-us section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Kingsman Aluminum?</h2>
+                <p>The preferred choice for home builders, contractors, and engineers in Abakaliki</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3>100% Genuine Quality</h3>
+                    <p>We source only high-gauge, authentic zinc and aluminum materials that withstand harsh weather and rust for decades.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-tags"></i>
+                    </div>
+                    <h3>Wholesale & Direct Prices</h3>
+                    <p>Enjoy direct market pricing on all roofing materials with unbeatable bulk discounts for contractors and builders.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <h3>Fast On-Site Delivery</h3>
+                    <p>Prompt delivery across Abakaliki, Afikpo, Ohaozara, and all surrounding areas in Ebonyi State and neighboring states.</p>
+                </div>
+
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-handshake-angle"></i>
+                    </div>
+                    <h3>Trusted Market Reputation</h3>
+                    <p>Conveniently located inside Integrated Building Materials Market, offering transparent transactions and expert advice.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span style="color: var(--gold); font-weight: 700; text-transform: uppercase;">About Our Business</span>
+                    <h3>Your Reliable Partner for Durable Roofing & Construction Supplies</h3>
+                    <p><strong>KINGSMAN ALUMINUM ENTERPRISES</strong> is a premier supplier of high-grade roofing materials based in Abakaliki, Ebonyi State. Located at the bustling <em>Integrated Building Materials Market</em>, we serve home owners, real estate developers, contractors, and government projects with top-tier roofing solutions.</p>
+                    <p>Whether you need longspan aluminum sheets, durable zinc roofing, Metcoppo styles, or complete roofing accessories, we guarantee genuine thickness, weather durability, and competitive market rates.</p>
+                    
+                    <ul class="about-highlights">
+                        <li><i class="fa-solid fa-circle-check"></i> Direct Distributor of Premium Zinc & Aluminum</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Custom Length Cutting & Profiling Assistance</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Honest & Accurate Gauge Measurements</li>
+                    </ul>
+
+                    <a href="tel:07017751785" class="btn btn-gold">
+                        <i class="fa-solid fa-phone"></i> Call Us Directly
+                    </a>
+                </div>
+
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="Roofing Construction Project">
+                    <div class="about-experience-card">
+                        <strong>#1</strong>
+                        <span>Trusted Roofing Supplier in Abakaliki</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DELIVERY AVAILABLE SECTION -->
+    <section id="delivery" class="delivery section-padding">
+        <div class="container">
+            <div class="delivery-box">
+                <div class="delivery-text">
+                    <h2><i class="fa-solid fa-truck-ramp-box" style="color: var(--gold); margin-right: 10px;"></i> Fast Site Delivery Available</h2>
+                    <p>Don't worry about transport! We arrange safe, fast, and reliable delivery of your zinc sheets, aluminum roofing, and accessories directly to your building site anywhere in Abakaliki and across Ebonyi State.</p>
+                </div>
+                <div>
+                    <a href="https://wa.me/2347017751785?text=Hello,%20I'd%20like%20to%20inquire%20about%20delivery%20rates%20to%20my%20site." target="_blank" class="btn btn-whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i> Request Delivery Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT US SECTION -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us Today</h2>
+                <p>Get instant price quotes or visit our store in Abakaliki</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info-card">
+                    <h3>Get In Touch</h3>
+                    
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Store Location</h4>
+                            <p>Integrated Building Materials Market, Abakaliki, Ebonyi State, Nigeria</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h4>Phone Number</h4>
+                            <p><a href="tel:07017751785" style="color: #fff;">07017751785</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/2347017751785" target="_blank" style="color: var(--gold);">07017751785</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Monday – Saturday: 8:00 AM – 6:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 30px;">
+                        <a href="https://wa.me/2347017751785?text=Hello%20Kingsman%20Aluminum,%20I%20want%20to%20make%20an%20inquiry." target="_blank" class="btn btn-whatsapp" style="width: 100%;">
+                            <i class="fa-brands fa-whatsapp"></i> Start WhatsApp Chat
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Send Us A Message</h3>
+                    <form id="inquiryForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone / WhatsApp Number</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="e.g. 08012345678" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="material">Material Needed</label>
+                            <select id="material" class="form-control">
+                                <option value="Zinc Roofing Sheets">Zinc Roofing Sheets</option>
+                                <option value="Aluminum Roofing">Aluminum Roofing Sheets</option>
+                                <option value="Roofing Accessories">Roofing Accessories</option>
+                                <option value="General Building Materials">General Building Materials</option>
+                                <option value="Full Project Quote">Full Project Quote</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message / Specifications</label>
+                            <textarea id="message" class="form-control" placeholder="Describe what you need (e.g. quantity, gauge, site location)..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-gold" style="width: 100%;">
+                            <i class="fa-solid fa-paper-plane"></i> Send Request via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 style="color: var(--gold);">KINGSMAN ALUMINUM</h4>
+                    <p>Your trusted dealer for zinc roofing sheets, aluminum materials, and construction supplies in Abakaliki, Ebonyi State.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Our Products</a></li>
+                        <li><a href="#why-us">Why Choose Us</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Product Categories</h4>
+                    <ul>
+                        <li><a href="#products">Zinc Roofing Sheets</a></li>
+                        <li><a href="#products">Aluminum Roofing</a></li>
+                        <li><a href="#products">Roofing Accessories</a></li>
+                        <li><a href="#products">Building Materials</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p><i class="fa-solid fa-location-dot" style="color: var(--gold);"></i> Integrated Building Materials Market, Abakaliki, Ebonyi State</p>
+                    <p><i class="fa-solid fa-phone" style="color: var(--gold);"></i> 07017751785</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> KINGSMAN ALUMINUM ENTERPRISES. All Rights Reserved. | Optimized for Roofing Materials in Abakaliki, Ebonyi State</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/2347017751785?text=Hello%20Kingsman%20Aluminum%20Enterprises,%20I%20want%20to%20inquire%20about%20your%20roofing%20materials." class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // Set dynamic current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle functionality
+        const mobileMenu = document.getElementById('mobileMenu');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu on navigation link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Contact Form Submission (Redirects to WhatsApp with pre-filled message)
+        document.getElementById('inquiryForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const material = document.getElementById('material').value;
+            const message = document.getElementById('message').value;
+
+            const text = `Hello Kingsman Aluminum Enterprises,%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Phone:* ${encodeURIComponent(phone)}%0A*Material Needed:* ${encodeURIComponent(material)}%0A*Message:* ${encodeURIComponent(message)}`;
+            
+            const whatsappUrl = `https://wa.me/2347017751785?text=${text}`;
+            window.open(whatsappUrl, '_blank');
+        });
+    </script>
+</body>
+      </html>
